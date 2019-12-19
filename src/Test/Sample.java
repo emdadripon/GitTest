@@ -14,5 +14,10 @@ public class Sample {
     }
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
+        System.out.println("Enter Number to Reverse:-= ");
+        int lnum = scan.nextInt();
+        Sample s = new Sample();
+        System.out.println("Input value: " + lnum);
+        System.out.println("Invert value: " + s.doInvert(lnum));
     }
 }
